@@ -1,0 +1,407 @@
+import { Project } from "./types";
+
+export const projects: Project[] = [
+  {
+    title: "DivPOS Website",
+    period: "2025",
+    description:
+      "Developed the full DivPOS website and web platform from scratch using React.js, delivering a cloud-based POS system, mobile ordering, loyalty programs, and real-time analytics for restaurants.",
+    detailedDescription: [
+      "Designed and implemented the entire frontend of DivPOS using React.js and Tailwind CSS, ensuring modular, reusable components for dashboards, menus, and order management.",
+      "Built fully responsive layouts to support multiple devices including desktops, tablets, and mobile.",
+      "Optimized performance and page load times, delivering a fast and seamless user experience.",
+      "Implemented role-based access for admins, staff, and customers, ensuring secure management of POS operations.",
+      "Enhanced UX with clear navigation, dashboard analytics, and real-time updates for orders and inventory.",
+    ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Design",
+      "UI/UX Design",
+      "Role-based Access Control",
+      "Performance Optimization",
+      "Interactive Dashboards",
+    ],
+    category: "Web Development / Full Platform",
+    status: "Live",
+    link: "https://divpos.com/",
+    image: "/assets/divpos-website/s-1.png",
+    details: {
+      challenges: [
+        "Creating a comprehensive POS platform that is intuitive for staff and admins.",
+        "Maintaining high performance while handling interactive dashboards and real-time data.",
+        "Designing a fully responsive interface across multiple devices.",
+      ],
+      solutions: [
+        "Developed a modular React.js component system for scalability and maintainability.",
+        "Applied Tailwind CSS for fast, consistent styling and responsive layouts.",
+        "Implemented role-based access for secure management of the platform.",
+      ],
+      results: [
+        "Delivered a fully functional and interactive POS platform for restaurants.",
+        "Improved user experience and engagement with a responsive, clean interface.",
+        "Enhanced operational efficiency for restaurant staff through clear dashboards and real-time data.",
+      ],
+      screenshots: [
+        "/assets/divpos-website/s-1.png",
+        "/assets/divpos-website/s-2.png",
+        "/assets/divpos-website/s-3.png",
+        "/assets/divpos-website/s-4.png",
+      ],
+    },
+  },
+  {
+    title: "DivPOS Dashboard",
+    period: "2025",
+    description:
+      "Interactive restaurant management platform using React.js, providing cloud-based POS, mobile ordering, loyalty programs, and real-time analytics.",
+    detailedDescription: [
+      "Rebuilt the main UI components of the DivPOS platform using React.js and Tailwind CSS, focusing on responsive and interactive design.",
+      "Implemented modular dashboards and menu components for POS and order management.",
+      "Created smooth UI interactions and transitions using Framer Motion to enhance user engagement.",
+      "Optimized frontend performance and ensured consistency across devices.",
+    ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design",
+      "UI Component Libraries",
+      "Performance Optimization",
+    ],
+    category: "Web Development / UI Design",
+    status: "Active",
+    link: "https://divpos.com/",
+    image: "/assets/divpos/s-1.png",
+    details: {
+      challenges: [
+        "Designing an intuitive UI for complex POS and restaurant workflows.",
+        "Ensuring responsive behavior across desktop, tablet, and mobile.",
+        "Balancing rich interactive features with fast load times.",
+      ],
+      solutions: [
+        "Built reusable React components for menus, dashboards, and order flows.",
+        "Applied Tailwind CSS for scalable, consistent styling.",
+        "Added Framer Motion animations for smooth interactions without affecting performance.",
+      ],
+      results: [
+        "Fully responsive and interactive interface for DivPOS users.",
+        "Enhanced engagement through animations and clear workflows.",
+        "Frontend optimized for speed and usability across all devices.",
+      ],
+      screenshots: [
+        "/assets/divpos/s-1.png",
+        "/assets/divpos/s-2.png",
+        "/assets/divpos/s-3.png",
+        "/assets/divpos/s-4.png",
+        "/assets/divpos/s-5.png",
+        "/assets/divpos/s-6.png",
+        "/assets/divpos/s-7.png",
+      ],
+    },
+  },
+  {
+    title: "Syrian Green Foundation",
+    period: "Feb 2025 - June 2025",
+    description:
+      "Official website for the Syrian Green Foundation promoting sustainability and environmental awareness across the region.",
+    detailedDescription: [
+      "Designed and developed a full-featured web platform for a national non-profit organization focused on sustainable development and environmental protection.",
+      "Implemented modular page creation through a dynamic CMS powered by pre-built templates for flexibility and ease of use.",
+      "Integrated role-based access (admin, guest, user, employee) with a powerful dashboard to manage content, members, subscriptions, and multilingual support.",
+    ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Framer Motion",
+      "React Router Dom",
+      "API integration",
+      "Ant Design Dashboard",
+      "Responsive Design",
+      "i18n Localization",
+      "Role-based Access Control",
+      "CMS",
+    ],
+    category: "Web Development",
+    status: "Live",
+    image: "/assets/green-syria/s-7.png",
+    link: "https://greensyrians.com",
+    details: {
+      challenges: [
+        "Creating a sustainable CMS solution manageable by non-technical environmental workers.",
+        "Maintaining accessibility and consistent performance across rural and urban devices.",
+        "Ensuring content remains editable and scalable without backend intervention.",
+      ],
+      solutions: [
+        "Custom admin dashboard for full dynamic content control using React + MongoDB.",
+        "Fully responsive design leveraging Tailwind and Framer Motion for fluid UI experience.",
+        "Role-based permission system and modular template structure for easy page management.",
+      ],
+      results: [
+        "Improved internal workflow and reduced technical dependency for content publishing.",
+        "Enhanced user experience with fluid interactions and optimized performance.",
+        "Enabled faster updates to environmental campaigns and outreach initiatives.",
+      ],
+      screenshots: [
+        "/assets/green-syria/s-1.png",
+        "/assets/green-syria/s-2.png",
+        "/assets/green-syria/s-3.png",
+        "/assets/green-syria/s-4.png",
+        "/assets/green-syria/s-5.png",
+        "/assets/green-syria/s-6.png",
+        "/assets/green-syria/s-7.png",
+        "/assets/green-syria/s-8.png",
+        "/assets/green-syria/s-9.png",
+      ],
+      clientReview:
+        "The platform empowered us to scale our outreach and environmental efforts through an intuitive, beautiful, and reliable web presence.",
+    },
+  },
+  {
+    title: "FERM Platform",
+    period: "Aug 2024 - current",
+    description:
+      "A robust and scalable web platform developed for the FAO to facilitate the review, evaluation, and sharing of good practices in sustainable development.",
+    detailedDescription: [
+      "Admin dashboard providing comprehensive tools for proposal management, including multi-step pre-screening processes to ensure quality control.",
+      "Reviewer allocation system with advanced filtering options to match proposals with suitable experts, including profile previews and automated email invitations.",
+      "Reviewer portal enabling invited reviewers to register, manage invitations, submit detailed evaluations, and track the status of assigned proposals.",
+      "Implementation of a sophisticated role-based access control system ensuring secure and seamless permission management across admins and reviewers.",
+      "Support for multi-language localization to cater to a diverse international user base.",
+      "Integration with cloud storage services (e.g., AWS S3) for efficient handling of large document uploads and attachments.",
+      "Real-time status tracking with categorized tabs (pending, late, accepted, done) to improve workflow transparency and user engagement.",
+      "Comprehensive API endpoints to allow administrators to finalize proposal decisions, publish accepted proposals, archive, or reject submissions.",
+      "Profile management for platform users with detailed user activity and history logs.",
+    ],
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Query",
+      "NX Monorepo",
+      "i18n Localization",
+      "Radix UI",
+    ],
+    category: "Platform Development",
+    status: "Live",
+    image: "/assets/ferm/main.png",
+    link: "https://fermgprev.review.fao.org",
+    details: {
+      challenges: [
+        "Designing and implementing a flexible yet secure permission system to accommodate different user roles and access levels.",
+        "Managing high data volume with efficient storage and fast retrieval, especially for large document attachments.",
+        "Balancing complex backend workflows with a user-friendly, accessible front-end interface.",
+        "Ensuring smooth collaboration between admins and reviewers while maintaining data integrity and security.",
+      ],
+      solutions: [
+        "Robust role-based access control with fine-grained permissions.",
+        "Cloud storage integration (AWS S3) to handle file uploads securely and reliably.",
+        "Responsive, intuitive UI powered by React and Radix UI components with localized multi-language support.",
+        "Backend built with NestJS and PostgreSQL for scalable, maintainable API services.",
+        "React Query for optimized server state management and seamless data fetching.",
+      ],
+      results: [
+        "Successfully facilitated the sharing of over 500 sustainable development practices within months of launch.",
+        "Achieved 95% positive feedback from users highlighting ease of use and reliability.",
+        "Reduced proposal review and decision turnaround time by 60%, streamlining FAO’s operational efficiency.",
+        "Increased engagement and transparency through real-time status updates and notifications.",
+      ],
+      screenshots: [
+        "/assets/ferm/s-1.png",
+        "/assets/ferm/s-2.png",
+        "/assets/ferm/s-3.png",
+      ],
+      clientReview:
+        "The FERM platform has transformed our review processes, enabling better collaboration, transparency, and efficiency in managing sustainable development proposals across multiple stakeholders.",
+    },
+  },
+  {
+    title: "FAO STI Portal",
+    period: "2024",
+    description:
+      "Redesigned and built the Science, Technology & Innovation portal for FAO—an open-access gateway to agrifood systems resources.",
+    detailedDescription: [
+      "Developed a fully redesigned frontend to improve navigation, content discovery, and resource access across STI domains.",
+      "Integrated a robust Digital Assets Explorer offering quick access to over 500 science, technology, and innovation assets.",
+      "Enhanced user experience with responsive design, improved accessibility compliance, and streamlined search and filtering capabilities.",
+    ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Performance Optimization",
+      "UX/UI Design",
+    ],
+    category: "UI/UX Redesign",
+    status: "Live",
+    link: "https://sti-portal.fao.org/home",
+    image: "/assets/sti/main.svg",
+    details: {
+      challenges: [
+        "Designing for complex, STEM-heavy content across diverse user groups.",
+        "Ensuring WCAG 2.1 compliance for international accessibility.",
+        "Maintaining FAO’s visual identity while improving usability and performance.",
+      ],
+      solutions: [
+        "User testing and research-driven wireframes to optimize navigation and layout.",
+        "Accessibility-first development, including keyboard navigation, ARIA roles, and contrast enhancements.",
+        "Implementation of a component-based design system with Tailwind CSS for scalable styling.",
+      ],
+      results: [
+        "Improved site performance, reducing load times and bounce rates.",
+        "Increased resource engagement via accessible menus and search functionality.",
+        "Consistent, user-focused experience aligned with FAO branding and quality standards.",
+      ],
+      screenshots: [
+        "/assets/sti/s-1.png",
+        "/assets/sti/s-2.png",
+        "/assets/sti/s-3.png",
+      ],
+    },
+  },
+  {
+    title: "Ordro Landing Page",
+    period: "2024",
+    description:
+      "High-performance responsive landing page for Ordro, a leading B2B FMCG digital platform in Saudi Arabia.",
+    detailedDescription: [
+      "Developed a modern, responsive landing page to showcase Ordro’s B2B FMCG platform and value proposition.",
+      "Focused on clean UI, smooth user experience, and clear call-to-action flows to improve lead conversion.",
+      "Implemented motion-driven interactions to enhance engagement while maintaining optimal performance.",
+    ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design",
+      "Performance Optimization",
+      "SEO Best Practices",
+    ],
+    category: "Landing Pages",
+    status: "Live",
+    link: "https://www.ordro.app/",
+    image: "/assets/ordro/s-1.png",
+    details: {
+      challenges: [
+        "Standing out in a highly competitive B2B FMCG market.",
+        "Creating engaging animations without impacting performance.",
+        "Ensuring fast load times across all devices.",
+      ],
+      solutions: [
+        "Built a component-based UI using React and Tailwind CSS for scalability and consistency.",
+        "Used Framer Motion to deliver smooth, lightweight animations focused on user interaction.",
+        "Applied performance optimization techniques and SEO-friendly structure.",
+      ],
+      results: [
+        "Improved user engagement through smooth animations and clean UI.",
+        "Fast-loading, fully responsive landing page across desktop and mobile.",
+        "Clear product communication leading to higher lead conversion.",
+      ],
+      screenshots: [
+        "/assets/ordro/s-1.png",
+        "/assets/ordro/s-2.png",
+        "/assets/ordro/s-3.png",
+      ],
+      clientReview:
+        "The landing page clearly communicates our product value and delivers a smooth, professional user experience.",
+    },
+  },
+  {
+    title: "UN Food Systems Hub — Database of Practices",
+    period: "2024",
+    description:
+      "Redesigned and implemented the Database of Practices page for UN Food Systems Hub using Next.js, creating a responsive and interactive web experience.",
+    detailedDescription: [
+      "Developed a fully responsive and accessible page using Next.js and Tailwind CSS for showcasing global food system practices.",
+      "Implemented search and filtering functionalities to allow users to quickly find practices by category, region, or keyword.",
+      "Designed interactive UI components with Framer Motion for smooth transitions and enhanced user engagement.",
+      "Optimized performance and SEO to ensure fast load times and discoverability for a global audience.",
+    ],
+    technologies: [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design",
+      "SEO Optimization",
+      "Interactive UI",
+    ],
+    category: "Web Development / UI Redesign",
+    status: "Live",
+    link: "https://www.unfoodsystemshub.org/hub-solution/database-of-practices/en",
+    image: "/assets/unfoodhub/s-1.png",
+    details: {
+      challenges: [
+        "Presenting large-scale data in an organized and user-friendly manner.",
+        "Ensuring accessibility and responsiveness for diverse international users.",
+        "Creating a visually engaging page while maintaining fast performance.",
+      ],
+      solutions: [
+        "Built modular UI components with Tailwind CSS for scalability and consistency.",
+        "Integrated Framer Motion for smooth animations and interactive elements.",
+        "Implemented client-side search and filtering for fast user experience.",
+        "Optimized Next.js build and page structure for SEO and performance.",
+      ],
+      results: [
+        "Fully interactive, responsive page accessible globally across devices.",
+        "Improved discoverability of food system practices via optimized search and SEO.",
+        "Enhanced user engagement through animations and smooth interactions.",
+      ],
+      screenshots: [
+        "/assets/unfoodhub/s-1.png",
+        "/assets/unfoodhub/s-2.png",
+        "/assets/unfoodhub/s-3.png",
+      ],
+      clientReview:
+        "The redesigned page significantly improved usability and engagement, making it easier for stakeholders worldwide to access and explore sustainable food practices.",
+    },
+  },
+  {
+    title: "VapeStore — Online Vape Shop",
+    period: "2023",
+    description:
+      "Developed a fully responsive and visually appealing online store for Vape products using HTML, CSS, and Bootstrap.",
+    detailedDescription: [
+      "Designed and implemented a clean, user-friendly interface showcasing products, services, and promotions.",
+      "Built responsive layouts using Bootstrap to ensure optimal viewing across desktops, tablets, and mobile devices.",
+      "Structured content sections including product categories, featured products, benefits, testimonials, and contact information.",
+      "Enhanced usability with clear navigation, product cards with prices, and call-to-action buttons for better user engagement.",
+      "Applied custom CSS to extend Bootstrap styling and create a unique visual identity for the store.",
+    ],
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "GSAP",
+      "Responsive Design",
+      "UI/UX Design",
+    ],
+    category: "Web Development / Frontend",
+    status: "Live",
+    link: "https://fatimabitar.github.io/VapeStore/",
+    image: "/assets/vape/s-1.png",
+    details: {
+      challenges: [
+        "Creating a fully responsive layout for multiple devices using Bootstrap.",
+        "Designing an attractive and organized interface for product display.",
+        "Balancing visual aesthetics with readability and usability.",
+      ],
+      solutions: [
+        "Used Bootstrap grid system and components for flexible, mobile-first layouts.",
+        "Custom CSS enhancements to refine Bootstrap components and create unique branding.",
+        "Organized content into clear, reusable sections for intuitive navigation.",
+      ],
+      results: [
+        "Responsive and interactive online store accessible on all devices.",
+        "Enhanced user experience with structured navigation and product presentation.",
+        "Clean and professional visual design representing the VapeStore brand.",
+      ],
+      screenshots: [
+        "/assets/vape/s-1.png",
+        "/assets/vape/s-2.png",
+        "/assets/vape/s-3.png",
+        "/assets/vape/s-4.png",
+      ],
+    },
+  },
+];
